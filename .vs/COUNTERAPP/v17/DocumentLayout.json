@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|c:\\users\\hp elitebook 840 g5\\source\\repos\\counterapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|c:\\users\\hp elitebook 840 g5\\source\\repos\\counterapp\\models\\countervalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|solutionrelative:models\\countervalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|c:\\users\\hp elitebook 840 g5\\source\\repos\\counterapp\\views\\home\\_searchpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|solutionrelative:views\\home\\_searchpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|c:\\users\\hp elitebook 840 g5\\source\\repos\\counterapp\\views\\home\\_searchresultspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|solutionrelative:views\\home\\_searchresultspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|c:\\users\\hp elitebook 840 g5\\source\\repos\\counterapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|c:\\users\\hp elitebook 840 g5\\source\\repos\\counterapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF1242CF-7A6E-4F96-BC1C-26B30223072A}|COUNTERAPP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_SearchResultsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Views\\Home\\_SearchResultsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_SearchResultsPartial.cshtml",
+              "ToolTip": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Views\\Home\\_SearchResultsPartial.cshtml",
+              "RelativeToolTip": "Views\\Home\\_SearchResultsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T14:55:25.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T14:20:10.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAADsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:15:29.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CounterValue.cs",
+              "DocumentMoniker": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Models\\CounterValue.cs",
+              "RelativeDocumentMoniker": "Models\\CounterValue.cs",
+              "ToolTip": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Models\\CounterValue.cs",
+              "RelativeToolTip": "Models\\CounterValue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:06:52.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T14:04:58.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_SearchPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Views\\Home\\_SearchPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_SearchPartial.cshtml",
+              "ToolTip": "C:\\Users\\HP ELITEBOOK 840 G5\\source\\repos\\COUNTERAPP\\Views\\Home\\_SearchPartial.cshtml",
+              "RelativeToolTip": "Views\\Home\\_SearchPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T14:56:10.067Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

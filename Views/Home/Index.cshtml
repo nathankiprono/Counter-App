@@ -1,0 +1,99 @@
+﻿@model List<int>
+@{
+    ViewData["Title"] = "Counter App";
+    var themeClass = ViewBag.Theme == "dark" ? "dark-theme" : "light-theme";
+    var counterValues = ViewBag.CounterValues as List<int>;
+}
+
+<div class="container text-center @themeClass">
+ 
+    <h2>Counter: @counterValues.LastOrDefault()</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <form asp-action="Increment" method="post">
+                <button type="submit" class="btn btn-outline-success">Increment</button>
+            </form>
+        </div>
+        <div class="col-md-3">
+            <form asp-action="Decrement" method="post">
+                <button type="submit" class="btn btn-outline-success">Decrement</button>
+            </form>
+        </div>
+        <div class="col-md-3">
+            <form asp-action="ToggleTheme" method="post">
+                <button type="submit" class="btn btn-outline-success">Toggle Theme</button>
+            </form>
+        </div>
+
+
+
+    </div>
+    <hr />
+
+
+    <h3>Counter History:</h3>
+    <div>
+        @foreach (var value in counterValues)
+        {
+            <div>@value</div>
+        }
+    </div>
+    <br />
+    <button id="loadSearchBtn" onclick="loadSearch()" class="btn btn-success">Load Search</button>
+    <div id="searchContainer"></div>
+    <br />
+
+</div>
+
+<style>
+    .light-theme {
+        background-color: white;
+        color: black;
+    }
+
+    .dark-theme {
+        background-color: black;
+        color: white;
+    }
+</style>
+
+<script>
+    // Function to load the search component
+    function loadSearch() {
+        const container = document.getElementById('searchContainer');
+        if (container.innerHTML === "") {
+            fetch('/Home/Search')
+                .then(response => response.text())
+                .then(html => {
+                    container.innerHTML = html;
+                });
+        } else {
+            alert('Search is already loaded.');
+        }
+    }
+
+    // Debounced search function
+    let timeoutId;
+
+    function debounceSearch() {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => {
+            const input = document.getElementById('searchInput').value;
+            if (input) {
+                fetch('/Home/FilterSearch', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: new URLSearchParams({ searchTerm: input })
+                })
+                    .then(response => response.text())
+                    .then(html => {
+                        document.getElementById('searchResults').innerHTML = html;
+                    });
+            } else {
+                document.getElementById('searchResults').innerHTML = '';
+            }
+        }, 500);
+    }
+</script>
