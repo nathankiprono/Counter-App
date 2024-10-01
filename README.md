@@ -25,7 +25,7 @@ This project implements a simple Counter Component that allows users to incremen
 ## Getting Started
 
 ### Prerequisites
-
+  - Visual studio 2022
 - [.NET SDK](https://dotnet.microsoft.com/download) (version 8.0 )
 
 
